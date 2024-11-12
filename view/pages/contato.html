@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Viagens & Turismo</title>
+    <link rel="stylesheet" href="./../css/index.css" />
+    <script src="./../../controller/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="postagens.html">Postagens</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contato">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Se você tiver alguma dúvida ou sugestão, preencha o formulário abaixo e entraremos em contato com você o mais
+            breve possível!</p>
+
+        <form id="contact-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Viagens & Turismo</p>
+    </footer>
+</body>
+
+</html>
